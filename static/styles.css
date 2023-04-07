@@ -3,7 +3,8 @@ body {
     margin: 0;
 }
 
-nav {
+nav, footer {
+    color: #F9FAF8;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -83,4 +84,96 @@ button {
 
 button:hover {
     background-color: #2f6ccd;
+}
+
+.info-section {
+    padding: 2rem;
+    background-color: #F9FAF8;
+}
+
+.info {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.info-cards {
+    display: flex;
+    gap: 36px;
+    margin-bottom: 3rem;
+}
+
+.card {
+    max-width: 220px;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+}
+
+.subtext-gray {
+    color: gray;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 2rem;
+}
+
+.quote {
+    max-width: 800px;
+    width: fit-content;
+    margin: 1rem auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+.quote-author {
+    width: fit-content;
+    margin-left: auto;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.action {
+    padding: 4rem;
+}
+
+.calltoaction {
+    gap: 16px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 50%;
+    padding: 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+.cta-header {
+    font-size: 24px;
+    margin: 0;
+}
+
+.subtext.cta-text {
+    margin: 0;
+}
+
+button.cta-signup {
+    border: 2px solid #F9FAF8;
 }
