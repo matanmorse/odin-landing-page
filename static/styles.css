@@ -1,0 +1,26 @@
+body {
+font-family: 'Roboto', sans-serif
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+li > a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-text {
+    color: #F9FAF8;
+}
