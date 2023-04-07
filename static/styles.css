@@ -35,7 +35,7 @@ footer {
 }
 
 .hotel-bg {
-    background-image: url(/static/hero-bg.jpeg);
+    background-image: url(/docs/assets/images/hero-bg.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -163,7 +163,7 @@ button:hover {
 }
 
 .info-section {
-    background-image: url(/static/hotel.png);
+    background-image: url(/docs/assets/images/hotel.png);
     background-position: center;
     background-size: cover;
 }
@@ -220,7 +220,7 @@ button:hover {
 }
 
 .train-bg {
-    background-image: url(/static/train.jpg);
+    background-image: url(/docs/assets/images/train.jpg);
     background-position: center;
     background-size: cover;
 }
