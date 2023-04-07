@@ -1,3 +1,17 @@
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    * {
+      flex-direction: column;
+    }
+    .info-cards {
+        width:fit-content;
+        margin: auto;
+    }
+    .top-image {
+        width: 0;
+    }
+  }
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -15,6 +29,7 @@ nav, footer {
     display: flex;
     list-style-type: none;
     gap: 16px;
+    flex-direction: row;
 }
 
 li > a {
@@ -37,7 +52,6 @@ li > a {
     gap: 48px;
     display: flex;
     align-items: center;
-    flex-direction: row;
 }
 
 .top-desc {
