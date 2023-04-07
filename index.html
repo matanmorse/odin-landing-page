@@ -11,80 +11,95 @@
     <title>Landing page</title>
 </head>
 <body>
-    <nav class="header">
-        <div class="header-text">
-            <h1>Header logo</h1>
+    <div class="hotel-bg">
+        <div class="layer">
+            <nav class="header">
+                <div class="header-text">
+                    <img src="static/ghibli_wordmark.png" alt="ghibli wordmark" class="wordmark">
+                    <h1 class="palatino-font">Aburaya: Onsen for Spirits</h1>
+                </div>
+                <div class="to-right">
+                    <ul class="links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Reservations</a></li>
+                        <li><a href="#">Commitment to Cleanliness</a></li>
+                    </ul>
+                </div>
+            </nav>    
+            <section class="top-section">
+                <div class="top-info mx-auto">
+                    <div class="top-desc">
+                        <h1 class="hero-text">Spirited Away: Spirit Onsen</h1>
+                        <em><p class="subtext">
+                            Welcome the rich man, he's hard for you to miss. His butt keeps getting bigger, so there's plenty there to kiss!
+                        </p>
+                        </em>
+                        <button class="signup">Book an appointment</button>
+                    </div>
+                        <img class="top-image mx-auto" src="static/hero-image.jpg">
+                </div>
+            </section>    
         </div>
-        <div class="to-right">
-            <ul class="links">
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
-        </div>
-    </nav>
+    </div>
     <div class="main-content">
-        <section class="top-section">
-            <div class="top-info mx-auto">
-                <div class="top-desc">
-                    <h1 class="hero-text">This website is awesome</h1>
-                    <p class="subtext">
-                        This website has some subtext that goes here under the main title. It's a smaller font 
-                        and the color is lower contrast.
-                    </p>
-                    <button class="signup">Sign up</button>
-                </div>
-                <div class="top-image">
-                    <img>
-                    This is some placeholder text for an image
-                </div>    
-            </div>
-        </section>
         <section class="info-section">
-            <div class="info">
-                <h3 class="info-header">Some random information</h3>
-                <div class="info-cards">
-                    <div class="card">
-                        <img class="info-img">
-                        <p class="subtext-gray">This is some subtext under an illustration or image</p>
-                    </div>
-                    <div class="card">
-                        <img class="info-img">
-                        <p class="subtext-gray">This is some subtext under an illustration or image</p>
-                    </div>
-                    <div class="card">
-                        <img class="info-img">
-                        <p class="subtext-gray">This is some subtext under an illustration or image</p>
-                    </div>
-                    <div class="card">
-                        <img class="info-img">
-                        <p class="subtext-gray">This is some subtext under an illustration or image</p>
+            <div class="layer-info">
+                <div class="info mx-auto">
+                    <h3 class="info-header palatino-font">Meet our staff</h3>
+                    <div class="info-cards">
+                        <div class="card">
+                            <h3 class="staff-name">Kamaji</h3>
+                            <img class="info-img" src="/static/kamaji.jpg" alt="Staff member Kamaji">
+                            <p class="subtext-gray mx-auto">Kamaji, our master boiler, is our head bath-water fulfillment specialist.
+                                His masterful operation of our boiler room is responsible for all of our fresh, hot baths.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3 class="staff-name">Aniyaku</h3>
+                            <img class="info-img" src="/static/aniyaku.jpg" alt="staff member Aniyaku">
+                            <p class="subtext-gray mx-auto">Aniyaku is our hotel floor manager. He'll be happy to assist you with whatever requests
+                                you may have during your stay, so feel free to ring him whenever!
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3 class="staff-name">Sen</h3>
+                            <img class="info-img" src="/static/sen.jpeg" alt="Staff member Sen">
+                            <p class="subtext-gray  mx-auto">Sen is our newest addition to the team, so she's still learning the ropes! However, she's quickly becoming some of our guests favorite staff member.</p>
+                        </div>
+                        <div class="card">
+                            <h3 class="staff-name">Lin</h3>
+                            <img class="info-img" src="/static/lin.jpg" alt="staff member Lin">
+                            <p class="subtext-gray  mx-auto">Lin is our senior bathhouse associate, and she has lots of passion for her craft!</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="quote-section">
-            <div class="quote">
-                <em>                
-                    <p class="quote-text">
-                    This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it.
-                    Who knows? All I know is that it will look nice.    
-                    </p>
-                </em>
-                <p class="quote-author"> -Thor, God of Thunder</p>
+        <div class="train-bg">
+            <div class="layer">
+                <section class="quote-section">
+                    <div class="quote">
+                        <em>                
+                            <p class="quote-text palatino-font">
+                            "Sen? Sen?! What did you to do me?!?!"
+                            </p>
+                        </em>
+                        <p class="quote-author"> -Kanoashi, highly satisfied customer</p>
+                    </div>
+                </section>
+                <section class="action">
+                        <div class="calltoaction mx-auto">
+                            <div class="cta-info">
+                                <h3 class="cta-header">Make your appointment today!</h6>
+                                <p class="subtext cta-text">Sign up today for a free extra bath token!</p>
+                            </div>
+                            <div class="cta-button">
+                                <button class="cta-signup">Make a reservation</button>
+                            </div>
+                        </div>    
+                </section>        
             </div>
-        </section>
-        <section class="action">
-            <div class="calltoaction mx-auto">
-                <div class="cta-info">
-                    <h3 class="cta-header">Call to action! It's time!</h6>
-                    <p class="subtext cta-text">Sign up for our product by clicking that button right over there!</p>
-                </div>
-                <div class="cta-button">
-                    <button class="cta-signup">Sign up</button>
-                </div>
-            </div>
-        </section>
+        </div>
     </div>
     <footer>
         <p>&copy; Matan Morse 2023</p>
