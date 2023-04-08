@@ -8,7 +8,7 @@
         margin: auto;
     }
     .top-image {
-        width: 0;
+        width: 0px;
     }
   }
 
@@ -185,6 +185,7 @@ button:hover {
     display: flex;
     gap: 48px;
     margin-bottom: 3rem;
+    flex-wrap: wrap;
 }
 
 .card {
