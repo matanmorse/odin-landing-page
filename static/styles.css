@@ -182,6 +182,7 @@ button:hover {
 }
 
 .info-cards {
+    justify-content: center;
     display: flex;
     gap: 48px;
     margin-bottom: 3rem;
